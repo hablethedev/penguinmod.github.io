@@ -58,7 +58,7 @@ const Credits = () => (
             </h1>
         </header>
         <section>
-            <h1>PenguinMod</h1>
+            <h1>TheShovel's instance of PenguinMod</h1>
         </section>
         <section>
             <h2>Thank you</h2>
@@ -77,7 +77,7 @@ const Credits = () => (
             <h2>Contributors</h2>
             <p>
                 PenguinMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">our GitHub</a> incase this one is out of date.
+                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">the GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
@@ -180,6 +180,7 @@ const Credits = () => (
             <UserList users={UserData.addonDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>
+
         <section>
             <h1>TurboWarp</h1>
         </section>
@@ -193,6 +194,10 @@ const Credits = () => (
                     Donate to support TurboWarp.
                 </a>
             </p>
+        </section>
+        <section>
+            <h2>About this instance</h2>
+            <p>This instance is hosted by <a href="https://theshovel.rocks">TheShovel</a>.</p>
         </section>
         {/* RIP Fosshost */}
         {/* <section>
